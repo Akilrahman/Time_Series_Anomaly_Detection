@@ -9,14 +9,18 @@ This project implements an end-to-end anomaly detection system for time-series I
 
 ## Dataset
 
-The project uses the NASA Bearing Dataset.
+This project uses the NASA Bearing Dataset.
 
-Due to file size constraints, the raw sensor data is not included in this repository.
-The dataset can be downloaded from the following link:
+Due to file size limits, the raw dataset is not included in this repository.
 
+Download the dataset from:
 https://www.kaggle.com/datasets/vinayak123tyagi/bearing-dataset
 
-After downloading, place the extracted files inside the `data/` directory as follows:
+After downloading, place it in the following structure:
+
+data/
+└── 1st_test/
+
 
 
 ---
