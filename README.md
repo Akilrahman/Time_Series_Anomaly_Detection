@@ -1,4 +1,5 @@
 # Time Series Anomaly Detection for IoT Sensors
+**[Live Demo](https://akilrahmantimeseriesanomalydetection.streamlit.app/)**
 
 > Detecting bearing failure 2,000+ time steps before catastrophic breakdown using unsupervised ML on NASA industrial sensor data.
 
