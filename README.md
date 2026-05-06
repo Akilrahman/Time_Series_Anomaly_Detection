@@ -64,7 +64,7 @@ Since no ground truth labels exist, validation was done through:
 ## Models
 
 ### Isolation Forest
-Detects anomalies by isolating data points that are statistically rare. Sensor windows requiring fewer splits to isolate are classified as anomalies.
+Detects anomalies by isolating data points that are statistically rare. Sensor windows requiring fewer splits to isolate are classified and then labbeled as  anomalies.
 
 ### Autoencoder (Deep Learning)
 Trained only on normal behavior. At failure, reconstruction error spikes sharply — the model cannot reconstruct patterns it has never seen. Threshold set at 95th percentile of training reconstruction error.
